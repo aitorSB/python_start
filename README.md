@@ -19,6 +19,22 @@
 print("Hello, World!")
 ```
 
+# Concatenación de elementos
+
+```py
+print("Hello, " + "World! " + "concatenacion") 
+```
+
+## Error en la concatenación de variables
+
+> No puedes concatenar una variable tipo int con una tipo string
+
+```py
+x_int = 5
+y_string = "John"
+print(x_int + y_string) #ERROR
+```
+
 # Comentarios
 
 > #Esto es un comentario de una linea.
@@ -63,4 +79,23 @@ x1, y2 , z3 = "pera", "manzana", "platano"
 print(x1)
 print(y2)
 print(z3)
+
+print(x1 + y2 + z3)
+```
+
+## Suma de variables
+
+```py
+x1 = "pera"
+y2 = "manzana"
+xx = x1 + " " + y2
+
+print(xx) # output: pera manzana
+
+numero1 = 1
+numero2 = 2
+
+numero_final = numero1 + numero2 
+
+print(numero_final) # output = 3
 ```

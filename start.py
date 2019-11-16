@@ -6,6 +6,10 @@
 
 print("Hello, World!")
 
+## concatenacion de elementos
+
+print("Hello, " + "World! " + "concatenacion") 
+
 # *************************************************************************
 # indentacion
 # *************************************************************************
@@ -32,3 +36,19 @@ x1, y2 , z3 = "pera", "manzana", "platano"
 print(x1)
 print(y2)
 print(z3)
+
+print(x1 + y2 + z3) # output: peramanzaplatano
+
+## suba de variables
+
+xx = x1 + " " + y2
+
+print(xx) # output: pera manzana
+
+numero1 = 1
+numero2 = 2
+
+numero_final = numero1 + numero2 
+
+print(numero_final) # output = 3
+
